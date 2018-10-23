@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tennisscorekeeper.MainActivity">
+
+    <!--
+Suggestion
+    Great Work.
+    Suggest using a (Scroll View).
+    Scroll View is a view group that allows the view hierarchy placed within it to be scrolled. Scroll view may have only one direct child placed within it. To add multiple views within the scroll view, make the direct child you add a view group, for example, LinearLayout, and place additional views within that LinearLayout.
+    By Using the Scroll View in your project you make your app responsive and your content never cut.
+    Here to learn more about this.
+    https://developer.android.com/reference/android/widget/ScrollView.html
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mr_rafael_nadal"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0_01"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:id="@+id/team_a_points"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0_02"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/team_a_games"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0_03"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/team_a_sets"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0_04"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/team_a_tiebreak"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/point_01"
+                android:layout_marginTop="75dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addPointForTeamA"/>
+        </LinearLayout>
+
+        <!--Awesome
+Awesome!! It is amazing to move your strings to a (string) res file.
+A string resource provides text strings for your application with optional text styling and formatting. There are three types of resources that can provide your application with strings:
+String
+XML resource that provides a single string.
+String Array
+XML resource that provides an array of strings.
+Quantity Strings (Plurals)
+XML resource that carries different strings for pluralization.
+By using the string res file you can support lots of languages and countries easily.
+Here to learn more about the (string) res file.
+https://developer.android.com/guide/topics/resources/string-resource.html
+-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mr_roger_federer"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0_05"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:id="@+id/team_b_points"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0_06"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/team_b_games"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0_07"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/team_b_sets"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0_08"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/team_b_tiebreak"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/point_02"
+                android:layout_marginTop="75dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addPointForTeamB"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="60dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/points"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/games"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="6dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sets"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginBottom="6dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tie_break_points"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_3_sets_to_win"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aces"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="100dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:onClick="quitAceForTeamA"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:onClick="addAceForTeamA"/>
+
+                <!--Awesome!! Making the text size in "sp" and margins in "dp" is the right idea.
+Here to learn more about the difference between "sp" and "dp".
+https://medium.com/@rayacevedo45/android-sp-vs-dp-ca50ad53162d
+-->
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/_0_09"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:id="@+id/team_a_aces"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/_0_10"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:id="@+id/team_b_aces"/>
+
+                <!--Suggestion
+                Great Work.
+                Suggest moving your dimensional elements to a (dimen) res file.
+                A dimension value defined in XML. A dimension is specified with a number followed by a unit of measure. For example: 10px, 2in, 5sp.
+                Here to learn more about the (dimen) res file.
+                https://developer.android.com/guide/topics/resources/more-resources#Dimension
+                -->
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:onClick="quitAceForTeamB"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:onClick="addAceForTeamB"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="63dp"
+        android:paddingLeft="40dp">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/a9fe0ee97bf3750590619940acb30fa3"/>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="267dp"
+            android:src="@drawable/a9fe0ee97bf3750590619940acb30fa3"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="resetScores"
+        android:id="@+id/reset"/>
+</RelativeLayout>
+
+<!--Awesome
+Awesome!! Your Layout is well constructed.
+A layout defines the structure for a user interface in your app, such as in an activity. All elements in the layout are built using a hierarchy of View and ViewGroup objects. A View usually draws something the user can see and interact with. Whereas a ViewGroup is an invisible container that defines the layout structure for View and other ViewGroup objects
+Here you can learn more about this.
+https://developer.android.com/guide/topics/ui/declaring-layout
+-->

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TennisScoreKeeper</string>
+    <string name="mr_rafael_nadal">Mr. Rafael Nadal</string>
+    <string name="_0_01">0</string>
+    <string name="_0_02">0</string>
+    <string name="_0_03">0</string>
+    <string name="_0_04">0</string>
+    <string name="point_01">POINT</string>
+    <string name="mr_roger_federer">Mr. Roger Federer</string>
+    <string name="_0_05">0</string>
+    <string name="_0_06">0</string>
+    <string name="_0_07">0</string>
+    <string name="_0_08">0</string>
+    <string name="point_02">POINT</string>
+    <string name="points">POINTS</string>
+    <string name="games">GAMES</string>
+    <string name="sets">SETS</string>
+    <string name="tie_break_points">TIE BREAK POINTS</string>
+    <string name="aces">ACES</string>
+    <string name="_0_09">0</string>
+    <string name="_0_10">0</string>
+    <string name="reset">Reset</string>
+    <string name="_3_sets_to_win">(3 SETS TO WIN)</string>
+</resources>

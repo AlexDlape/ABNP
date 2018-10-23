@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="com.example.android.products.ProductDetail">
+
+        <ImageView
+            android:id="@+id/book_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:adjustViewBounds="true"
+            android:src="@drawable/add_book" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin">
+
+            <TextView
+                android:text="Title"
+                style="@style/CategoryStyle"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/book_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Author"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/book_author"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Literary Genre"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/book_genre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Unit Price"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/book_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="In Stock"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/book_quantity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/plus_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="+"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+                <Button
+                    android:id="@+id/minus_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="-"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Supplier Name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/book_supname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Supplier Phone"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/book_supphone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"/>
+            <Button
+                android:id="@+id/call_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Call"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/edit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Book"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+            <Button
+                android:id="@+id/delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Book"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

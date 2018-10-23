@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Books Inventory</string>
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Books</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_pet">Add a Book</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Book Details</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="category_genre">Literary Genre</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_measurement">Measurement</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Unit Price</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_suppliername">Supplier\'s Name</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplierphone">Supplier\'s Phone</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_image">Add Image</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_title">Title</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_author">Author</string>
+
+    <!-- Text hint for weight field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_pet_weight">Weight</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_price">Unit Price</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_quantity">0</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_suppliername">Supplier\'s Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_book_supplierphone">555555555</string>
+
+    <!-- Units for weight of the book (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_pet_weight">g</string>
+
+    <!-- Units for price of the book (euros) [CHAR LIMIT=5] -->
+    <string name="unit_book_price">€</string>
+
+    <!-- Label for dropdown menu option if the pet's gender is unknown [CHAR LIMIT=20] -->
+    <string name="genre_other">Other</string>
+    <string name="genre_tragedy">Tragedy</string>
+    <string name="genre_tragiccomedy">Tragic Comedy</string>
+    <string name="genre_fantasy">Fantasy</string>
+    <string name="genre_mythology">Mythology</string>
+    <string name="genre_adventure">Adventure</string>
+    <string name="genre_mystery">Mystery</string>
+    <string name="genre_sciencefiction">Science Fiction</string>
+    <string name="genre_drama">Drama</string>
+    <string name="genre_romance">Romance</string>
+    <string name="genre_satire">Satire</string>
+    <string name="genre_horror">Horror</string>
+
+    <!-- Title text for the empty view [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a book [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a book</string>
+
+    <string name="editor_activity_title_new_product">Add a Book</string>
+    <string name="editor_activity_title_edit_product">Edit Book</string>
+
+    <string name="action_back">Back</string>
+
+    <string name="back_dialog_message">Please enter quantity of book.</string>
+
+    <string name="back_button">OK</string>
+
+    <string name="editor_insert_book_successful">Book saved</string>
+
+    <string name="editor_insert_book_failed">All information must be entered!</string>
+
+    <string name="editor_update_product_successful">Book updated</string>
+
+    <string name="editor_update_product_failed">All information must be entered!</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="delete_all_dialog_msg">Careful! Delete all books?</string>
+    <string name="deleteAll">Delete all</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="book_stock_again">Book in stock again!</string>
+    <string name="book_out_of_stock">Unsuccessful sale. Book out of stock</string>
+    <string name="book_last_stock">This was the last in stock!</string>
+    <string name="book_requires_title">Book requires a title</string>
+    <string name="book_requires_author">Book requires an author</string>
+    <string name="book_requires_genre">Book requires valid genre</string>
+    <string name="book_requires_price">Book requires valid price</string>
+    <string name="book_requires_quantity">Book requires valid quantity of stock</string>
+    <string name="book_requires_supname">Book requires valid supplier name</string>
+    <string name="book_requires_supphone">Book requires valid supplier phone</string>
+
+    <!--Awesome
+Great WOrk by storing the strings in this file-->
+
+</resources>

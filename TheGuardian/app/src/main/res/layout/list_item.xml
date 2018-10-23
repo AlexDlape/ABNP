@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dim16"
+    android:background="@android:color/white"
+    tools:context="com.example.android.theguardian.MainActivity">
+
+    <!--Awesome
+The idea of creating the dimens.xml file is brilliant! In Android we have to deal with a large variety of screen sizes; that's why is recommended to put all the layout dimensions in dimens.xml resource file. This will help us also to design different layouts depending on the screen sizes.-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsTitle"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text20"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/dim8"
+        tools:text="@string/news_title"/>
+
+    <!--Awesome
+Great job of using tools:text instead of android:text !
+You can learn more about the tools attributes, here.-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsCategory"
+        android:layout_below="@+id/newsTitle"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="@dimen/text16"
+        android:paddingTop="@dimen/dim8"
+        tools:text="@string/news_section"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsAuthor"
+        android:layout_below="@+id/newsCategory"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/text12"
+        android:layout_alignParentStart="true"
+        android:paddingTop="@dimen/dim8"
+        tools:text="@string/author"/>
+
+    <!--Awesome
+Great for displaying for each list item the required field: author name (where is available).-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsDate"
+        android:layout_below="@+id/newsCategory"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/text12"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="@dimen/dim8"
+        tools:text="@string/date"/>
+
+
+</RelativeLayout>

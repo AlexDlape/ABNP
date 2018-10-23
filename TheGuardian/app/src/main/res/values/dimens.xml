@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim8">8dp</dimen>
+    <dimen name="dim16">16dp</dimen>
+    <dimen name="dim90">90dp</dimen>
+    <dimen name="text12">12sp</dimen>
+    <dimen name="text16">16sp</dimen>
+    <dimen name="text20">20sp</dimen>
+</resources>
+
+<!--Awesome
+Nicely done for defining the text sizes in sp.
+I recommend you to read this article to learn more about the difference between “px”, “dip”, “dp” and “sp”.
+Maybe you already read it because you applied the units very well but in case you didn't, you can take a look!-->

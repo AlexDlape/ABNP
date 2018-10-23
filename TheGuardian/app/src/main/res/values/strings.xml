@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TheGuardian</string>
+    <string name="news_title">News Title</string>
+    <string name="news_section">News Section</string>
+    <string name="author">author</string>
+    <string name="date">date</string>
+    <string name="no_news">Problem with The Guardian\'s server.</string>
+    <string name="no_connection">No internet connection.</string>
+    <string name="no_browser">No internet browser.</string>
+    <string name="category_business">Business</string>
+    <string name="category_politics">Politics</string>
+    <string name="category_technology">Tech</string>
+    <string name="category_sports">Sports</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet_connection">There is no internet connection. Please turn on your WI-FI or mobile data and restart the app.</string>
+    <string name="no_news_found">Sorry, unexpected problem with downloading data from The Guardian\'s server. Please, close the app and try it in a while.</string>
+</resources>
+
+<!--Awesome
+An Android application can be used by a lot of people from different parts of the world. Its why is recommended to put all strings used by the app in strings.xml resource file. In this way using built-in Android system we'll be able to provide the user interface in the right language based on the user location and phone settings.-->

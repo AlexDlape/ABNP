@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    /**Suggestion
+    It's highly recommended to use the latest version of Android.
+    The latest version of android is version 28.*/
+    defaultConfig {
+        applicationId "com.example.android.archiprize"
+        minSdkVersion 15
+        targetSdkVersion 26
+        /**Suggestion
+ You should target the latest Android SDK: 28, unless you have strong reasons not to do so. It has the latest features, bug fixes, securities updates...etc.
+ Read more about Android Oreo 8.1
+ Read more about Android P features and APIs*/
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.0.0-beta1'
+    /**Suggestion
+ This is not the latest version of support library.
+ You could always visit this page to find out: https://d.android.com/topic/libraries/support-library/revisions
+ What is the latest release of the library .
+ What is new in each revision. What had been fixed.*/
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}

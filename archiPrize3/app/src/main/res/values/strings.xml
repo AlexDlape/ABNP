@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">archiPrize</string>
+    <string name="question1b">Bauhaus</string>
+    <string name="question2">question2</string>
+    <string name="archiprize">#archiPrize</string>
+    <string name="score">Score</string>
+    <string name="question_1">Question 1</string>
+    <string name="what_was_the_name_of_the_legendary_design_school_founded_by_walter_gropius">What was the name of the legendary design school founded by Walter Gropius?</string>
+    <!--Awesome
+Great job storing all the strings in strings.xml
+This makes your code organized, maintainable, and easier to translate your app into other languages.
+Check these Docs.
+Also check this tips: Android strings.xml — things to remember-->
+    <string name="please_type_the_name_here">Please, type the name here</string>
+    <string name="question_2">Question 2</string>
+    <string name="who_is_considered_the_father_of_modern_architecture">Who is considered the father of modern architecture?</string>
+    <string name="peter_eissenman">Peter Eissenman</string>
+    <string name="sou_fujimoto">Sou Fujimoto</string>
+    <string name="le_corbusier">Le Corbusier</string>
+    <string name="question_3">Question 3</string>
+    <string name="who_won_the_last_architecture_pritzker_prize_in_2017">Who has won the architecture Pritzker prize, considered the Nobel of architecture?</string>
+    <!--Suggestion
+You can also format and style your string in here to like bold and italic to emphasize some word or text to users, check these DOCS-->
+    <string name="rcr_arquitectes">RCR arquitectes</string>
+    <string name="norman_foster">Norman Foster</string>
+    <string name="rem_koolhaas">Santiago Calatrava</string>
+    <string name="question_4">Question 4</string>
+    <string name="who_is_the_current_director_of_the_architecture_department_at_harvard_school_of_design">Who is the current director of the architecture department at Harvard School of Design?</string>
+    <string name="santiago_calatrava">Santiago Calatrava</string>
+    <string name="i_aki_balos">Iñaki Ábalos</string>
+    <string name="walter_gropius">Walter Gropius</string>
+    <string name="question_5">Question 5</string>
+    <string name="where_is_the_atomium_building_a_project_for_the_expo_58">Where is the Atomium building, a project for the Expo 58?</string>
+    <string name="paris">Paris</string>
+    <string name="berlin">Berlin</string>
+    <string name="brussels">Brussels</string>
+    <string name="question_6">Question 6</string>
+    <string name="was_the_eiffel_tower_constructed_as_an_ephimeral_project">Was the Eiffel Tower constructed as an ephimeral project?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="question_7">Question 7</string>
+    <string name="which_of_the_following_is_the_tallest_building_on_earth">Which of the following is the tallest building on Earth?</string>
+    <string name="shanghai_tower_in_china">Shanghai Tower, in China</string>
+    <string name="burj_khalifa_in_the_united_arab_emirates">Burj Khalifa, in the United Arab Emirates</string>
+    <string name="one_world_trade_centre_in_new_york">One World Trade Centre, in New York</string>
+    <string name="question_8">Question 8</string>
+    <string name="how_long_is_the_dnyang_kunshan_bridge_in_china_the_longest_bridge_ever_constructed">How long is the Dnyang-Kunshan bridge in China, the longest bridge ever constructed?</string>
+    <string name="_6_kilometres">6 kilometres</string>
+    <string name="_23_kilometres">23 kilometres</string>
+    <string name="_160_kilometres">160 kilometres.</string>
+    <string name="question_9">Question 9</string>
+    <string name="which_century_was_the_notre_dame_cathedral_finished">Which century was the Notre-Dame cathedral finished?</string>
+    <string name="please_type_in_roman_numbers_here">Please, type in roman numbers here</string>
+    <string name="question_10">Question 10</string>
+    <string name="have_you_enjoyed_this_app_careful_with_this_answer">Have you enjoyed this app? (careful with this answer)</string>
+    <string name="a_lot">A lot</string>
+    <string name="just_a_little">Just a little</string>
+    <string name="not_at_all">Not at all</string>
+    <string name="results">Results!</string>
+    <string name="reset">Reset</string>
+</resources>

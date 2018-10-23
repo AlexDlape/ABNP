@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.archiprize.MainActivity">
+
+    <!--Awesome
+    I see that you have that you have used the latest version of ConstraintLayout: 1.1.2
+    To know more about what's new in this release check this article on Medium:
+    https://medium.com/google-developers/introducing-constraint-layout-1-1-d07fc02406bc-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:background="@color/background_color"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:padding="10dp"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/archiprize"
+                android:textColor="@android:color/white"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/reset"
+                android:textColor="@color/text_red"
+                android:textSize="17sp"
+                android:textStyle="normal"
+                android:onClick="buttonReset"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="10">
+
+            <!--Awesome
+You used <ScrollView>. it makes your UI works fine on both landscape mode and smaller screens too.
+Working with the ScrollView-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_1"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/what_was_the_name_of_the_legendary_design_school_founded_by_walter_gropius"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/edit1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="@string/please_type_the_name_here"
+                    android:inputType="textCapWords" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_2"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/who_is_considered_the_father_of_modern_architecture"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+
+                <RadioGroup
+                    android:id="@+id/radio1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp">
+
+                    <RadioButton
+                        android:id="@+id/radio1a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/peter_eissenman"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio1b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/sou_fujimoto"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio1c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/le_corbusier"
+                        android:textColor="@android:color/white" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_3"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/who_won_the_last_architecture_pritzker_prize_in_2017"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+<!--Awesome
+Great work you have used one of android predefined colors.
+https://stackoverflow.com/questions/3769762/web-colors-in-an-android-color-xml-resource-file-->
+
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/rcr_arquitectes"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/radio2a"/>
+
+                    <CheckBox
+                        android:id="@+id/radio2b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/norman_foster"
+                        android:textColor="@android:color/white" />
+
+                    <CheckBox
+                        android:id="@+id/radio2c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/rem_koolhaas"
+                        android:textColor="@android:color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_4"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/who_is_the_current_director_of_the_architecture_department_at_harvard_school_of_design"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+
+                <RadioGroup
+                    android:id="@+id/radio3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp">
+
+                    <RadioButton
+                        android:id="@+id/radio3a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/santiago_calatrava"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio3b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/i_aki_balos"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio3c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/walter_gropius"
+                        android:textColor="@android:color/white" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_5"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/where_is_the_atomium_building_a_project_for_the_expo_58"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+
+                <RadioGroup
+                    android:id="@+id/radio4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp">
+
+                    <RadioButton
+                        android:id="@+id/radio4a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/paris"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio4b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/berlin"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio4c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/brussels"
+                        android:textColor="@android:color/white" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_6"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/was_the_eiffel_tower_constructed_as_an_ephimeral_project"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+
+                <RadioGroup
+                    android:id="@+id/radio5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp">
+
+                    <RadioButton
+                        android:id="@+id/radio5a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/yes"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio5b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/no"
+                        android:textColor="@android:color/white" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_7"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/which_of_the_following_is_the_tallest_building_on_earth"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+
+                <RadioGroup
+                    android:id="@+id/radio6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp">
+
+                    <RadioButton
+                        android:id="@+id/radio6a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/shanghai_tower_in_china"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio6b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/burj_khalifa_in_the_united_arab_emirates"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio6c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/one_world_trade_centre_in_new_york"
+                        android:textColor="@android:color/white" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_8"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/how_long_is_the_dnyang_kunshan_bridge_in_china_the_longest_bridge_ever_constructed"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+
+                <RadioGroup
+                    android:id="@+id/radio7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp">
+
+                    <RadioButton
+                        android:id="@+id/radio7a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/_6_kilometres"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio7b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/_23_kilometres"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio7c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/_160_kilometres"
+                        android:textColor="@android:color/white" />
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_9"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/which_century_was_the_notre_dame_cathedral_finished"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/edit2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:hint="@string/please_type_in_roman_numbers_here"
+                    android:inputType="textCapWords">
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/question_10"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/have_you_enjoyed_this_app_careful_with_this_answer"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.5sp"
+                    android:textStyle="normal" />
+
+                <RadioGroup
+                    android:id="@+id/radio10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp">
+
+                    <RadioButton
+                        android:id="@+id/radio10a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/a_lot"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio10b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/just_a_little"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radio10c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="@string/not_at_all"
+                        android:textColor="@android:color/white" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1.45"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_gravity="right"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/mybutton"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/results"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:onClick="buttonEvaluate"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

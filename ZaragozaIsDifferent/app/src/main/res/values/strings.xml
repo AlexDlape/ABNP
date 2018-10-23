@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">ZaragozaIsDifferent</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_architecture">Buildings</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_nightlife">Nightlife</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_aragon">Aragón</string>
+
+    <string name="arch_one">El Pilar\'s Basilic</string>
+    <string name="arch_two">La Seo Cathedral</string>
+    <string name="arch_three">Water Tower</string>
+    <string name="arch_four">Zaha Hadid\'s Bridge Pavilion</string>
+    <string name="arch_five">Pablo Serrano\'s Museum</string>
+    <string name="arch_six">Central Market</string>
+    <string name="arch_seven">Puerto Venecia\'s Shopping Centre</string>
+    <string name="arch_eight">Puerta Cinegia</string>
+    <string name="arch_nine">Montemuzo\'s Palace</string>
+    <string name="arch_ten">Doctor Cerrada\'s Library</string>
+
+    <string name="arch_d_one">The Cathedral-Basilica of Our Lady of the Pillar (Spanish: Catedral-Basílica de Nuestra Señora del Pilar) is a Roman Catholic church in the city of Zaragoza, Aragon (Spain). The Basilica venerates Blessed Virgin Mary, under her title Our Lady of the Pillar praised as "Mother of the Hispanic Peoples" by Pope John Paul II.[2] It is reputed to be the first church dedicated to Mary in history.</string>
+    <string name="arch_d_two">The Cathedral of the Savior (Spanish: Catedral del Salvador) or La Seo de Zaragoza is a Roman Catholic cathedral in Zaragoza, in Aragon, Spain. It is part of the World Heritage Site Mudéjar Architecture of Aragon. The cathedral is located on the Plaza de la Seo and is commonly known as La Seo (Spanish for "see") to distinguish it from the nearby El Pilar, whose name (pillar) is a reference to an apparition of Mary in Zaragoza (also known as Saragossa). They both share co-cathedral status in metropolitan Zaragoza. </string>
+    <string name="arch_d_three">The Torre del Agua (Spanish: Water Tower) is a 76-metre-high (249 ft) tower built at the Expo 2008 site in Zaragoza, Spain. It was designed by Enrique de Teresa (es) and constructed of concrete, steel and glass. </string>
+    <string name="arch_d_four">The Bridge Pavilion (Spanish: Pabellón Puente) is a building designed by British-Iraqi architect Zaha Hadid that was constructed for the Expo 2008 in Zaragoza (Spain) as one of its main landmarks. It is an innovative 280-metre-long (919 ft) covered bridge that imitates a gladiola over the river Ebro, connecting the neighbourhood of La Almozara (es) with the exposition site, and thus becoming its main entrance. The new bridge is, at the same time, a multi-level exhibition area; 10,000 visitors per hour were expected to frequent the Pavilion during world exhibition. </string>
+    <string name="arch_d_five">The Aragonese Institute of Contemporary Art and Culture (IAACC), popularly known as the Pablo Serrano Museum, is a center dedicated to modern and contemporary art, whose foundational repertoire is a vast collection of works by the Aragonese sculptor Pablo Serrano (1908 - 1985).</string>
+
+    <string name="parks_one">Big Park or "José Antonio Labordeta\'s Park</string>
+    <string name="parks_two">Water Park</string>
+    <string name="parks_three">Juslibol</string>
+    <string name="parks_four">Miraflores Park</string>
+    <string name="parks_five">Ebro\'s Riversides</string>
+
+    <string name="parks_d_one">The José Antonio Labordeta Great Park is a park in the city of Zaragoza (Spain) inaugurated in 1929 and located in the University district. Since its inauguration and for 81 years, it was officially named Primo de Rivera Park and popularly known as Parque Grande, but after the death of the singer-songwriter and politician José Antonio Labordeta in 2010, the city of Zaragoza baptized this park with its name.</string>
+    <string name="parks_d_two">The «Luis Buñuel» Water Park is a large green area of the city of Zaragoza (Spain). It is located in the meander of Ranillas, next to the site of what was the International Exhibition of Zaragoza 2008. It has an approximate area of 120 hectares.</string>
+    <string name="parks_d_three">This nucleus has archaeological remains from the first settlements in the Ebro valley, located in a hill to the west of Juslibol where the Miranda Castle is also located. Its elevated position allowed it to control all the fertile plain of the Ebro, at the time covered by dense forests, and it protected it from the floods.</string>
+    <string name="parks_d_four">Situated in the city centre, it is the ideal place to relax from the city noises.</string>
+    <string name="parks_d_five">The renovation of the banks of the Ebro, undertaken on the occasion of the 2008 International Exhibition, redefined the relationship between the Ebro and the city. Its new sidewalks, green avenues, bike paths, terraces, recreational areas and various equipment contribute to the river becoming the true backbone of the city and offer citizens and visitors new areas in which to walk, play sports, play , or have a drink. In addition, the renovation of the banks of the Gállego and Huerva rivers and the Imperial Canal of Aragón complete the Riberas de Zaragoza Plan.</string>
+
+    <string name="night_one">Las Armas</string>
+    <string name="night_two">Supernova</string>
+    <string name="night_three">Zaragoza\'s Beaches</string>
+    <string name="night_four">Old Town</string>
+    <string name="night_five">Pubs in Cesáreo Alierta</string>
+
+    <string name="night_d_one">Las Armas is an area close to the old town that is being urbanisticaly regenerated by organizing many social activities. The events can go from markets to crazy alternative parties during the night.</string>
+    <string name="night_d_two">Supernova is an important pub in Zaragoza, located by the Ebro\'s riversides, which gives it an ideal position to have the best views of the city.</string>
+    <string name="night_d_three">For the Expo 2008 that took place in Zaragoza, one of the projects was to build an artiffitial beach, where you can enjoy the summer drinking mojitos, swimming in the salty water or laying on the sand. </string>
+    <string name="night_d_four">The old town area gets transformed during the night, where you can find innumerable places to party.</string>
+    <string name="night_d_five">The city centre is another great area to party. You can go there to drink at the terraces, and afterwards you can go to one of the well known discos.</string>
+
+    <string name="aragon_one">The Pyrenees</string>
+    <string name="aragon_two">Monegros desert</string>
+    <string name="aragon_three">Ordesa Valley</string>
+
+    <string name="aragon_d_one">For the most part, the main crest forms a divide between Spain and France, with the microstate of Andorra sandwiched in between. The Principality of Catalonia alongside with the Kingdom of Aragon in the Crown of Aragon, Occitania and the Kingdom of Navarre have historically extended on both sides of the mountain range, with smaller northern portions now in France and larger southern parts now in Spain.</string>
+    <string name="aragon_d_two">The Monegros Desert or Desierto de los Monegros is a semidesert in Aragón, northeastern Spain, spanning the provinces of Zaragoza and Huesca. It is a semi arid zone prone to frequent droughts. It is noted for its annual electronic music festival held in mid-July, the Monegros Desert Festival. </string>
+    <string name="aragon_d_three">The Ordesa Valley is a glacial valley in Aragon, in the Spanish Pyrenees which forms part of the Ordesa y Monte Perdido National Park. It was first discovered in 1820, but not mapped in detail until approximately the 1920s. The valley is about 11 kilometres (7 mi) long.</string>
+
+    <!--Awesome
+Great! You have personalized your own styles. Now you can change them easily whenever you want.-->
+
+</resources>

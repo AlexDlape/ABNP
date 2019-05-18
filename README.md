@@ -5,5 +5,6 @@ It contains all the projects that have been developed in the 'Android Basics Nan
 - Project "User Input": Tennis Score Keeper App
 - Project "Multiple Screens": ZaragozaTour Guide App.
 - Project "Networking": "The Guardian" News App.
+- Project "Data Storage": Inventory App for a bookshop.
 
 In this programme, all the projects are developed with Android Studio, coding in Java, SQLite, XML, CSS and JSON parsing.

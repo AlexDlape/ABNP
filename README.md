@@ -7,4 +7,4 @@ It contains all the projects that have been developed in the 'Android Basics Nan
 - Project "Networking":'The Guardian' News App.
 - Project "Data Storage": Inventory App for a bookshop.
 
-In this programme, all the projects are developed with Android Studio, coding in Java, SQLite, XML, CSS and JSON parsing.
+In this program, all the projects are developed with Android Studio, coding in Java, SQLite, XML, CSS and JSON parsing.
